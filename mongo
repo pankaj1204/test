@@ -162,3 +162,14 @@ db.Empdb.insert([
     ]
   }
 ]);
+
+
+db.Empdb.createIndex({ Designation: 1 });
+
+db.Empdb.createIndex({ Name: 1, Age: -1 });
+
+db.Empdb.createIndex({ Expertise: 1 });
+
+db.Empdb.getIndexes();
+
+db.Empdb.dropIndex({ Designation: 1 });
