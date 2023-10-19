@@ -164,6 +164,7 @@ db.Empdb.insert([
 ]);
 
 
+
 db.Empdb.createIndex({ Designation: 1 });
 
 db.Empdb.createIndex({ Name.FName: 1, Age: -1 });
