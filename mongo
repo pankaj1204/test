@@ -1,0 +1,164 @@
+db.createCollection("Empdb");
+
+db.Empdb.insert([
+  {
+    Empid: 1,
+    Name: { FName: "Amit", LName: "Kumar" },
+    CompanyName: "TechCorp",
+    Salary: 60000,
+    Designation: "Software Engineer",
+    Age: 28,
+    Expertise: ["Java", "JavaScript", "MongoDB"],
+    DOB: "1995-02-10",
+    EmailID: "amit@example.com",
+    Contact: "+91 9876543210",
+    Address: [
+      { PAddr: "123, ABC Street", LAddr: "XYZ Nagar" },
+      { PAddr: "456, DEF Street", LAddr: "ABC Nagar" }
+    ]
+  },
+  {
+    Empid: 2,
+    Name: { FName: "Sneha", LName: "Sharma" },
+    CompanyName: "DataTech",
+    Salary: 75000,
+    Designation: "Data Scientist",
+    Age: 32,
+    Expertise: ["Python", "Machine Learning", "Statistics"],
+    DOB: "1989-07-15",
+    EmailID: "sneha@example.com",
+    Contact: "+91 9876543211",
+    Address: [
+      { PAddr: "789, GHI Street", LAddr: "PQR Nagar" },
+      { PAddr: "101, JKL Street", LAddr: "MNO Nagar" }
+    ]
+  },
+  {
+    Empid: 3,
+    Name: { FName: "Rahul", LName: "Verma" },
+    CompanyName: "TechSolutions",
+    Salary: 55000,
+    Designation: "UI/UX Designer",
+    Age: 26,
+    Expertise: ["UI/UX Design", "CSS", "Web Design"],
+    DOB: "1997-04-20",
+    EmailID: "rahul@example.com",
+    Contact: "+91 9876543212",
+    Address: [
+      { PAddr: "222, MNO Street", LAddr: "LMN Nagar" },
+      { PAddr: "333, XYZ Street", LAddr: "JKL Nagar" }
+    ]
+  },
+  {
+    Empid: 4,
+    Name: { FName: "Priya", LName: "Singh" },
+    CompanyName: "TechCorp",
+    Salary: 62000,
+    Designation: "Software Engineer",
+    Age: 27,
+    Expertise: ["Java", "SQL", "Web Development"],
+    DOB: "1994-01-05",
+    EmailID: "priya@example.com",
+    Contact: "+91 9876543213",
+    Address: [
+      { PAddr: "789, PQR Street", LAddr: "ABC Nagar" },
+      { PAddr: "456, DEF Street", LAddr: "XYZ Nagar" }
+    ]
+  },
+  {
+    Empid: 5,
+    Name: { FName: "Avinash", LName: "Gupta" },
+    CompanyName: "DataTech",
+    Salary: 72000,
+    Designation: "Data Analyst",
+    Age: 29,
+    Expertise: ["Data Analysis", "SQL", "Excel"],
+    DOB: "1992-09-28",
+    EmailID: "avinash@example.com",
+    Contact: "+91 9876543214",
+    Address: [
+      { PAddr: "123, XYZ Street", LAddr: "PQR Nagar" },
+      { PAddr: "555, ABC Street", LAddr: "JKL Nagar" }
+    ]
+  },
+  {
+    Empid: 6,
+    Name: { FName: "Preeti", LName: "Mishra" },
+    CompanyName: "TechSolutions",
+    Salary: 58000,
+    Designation: "QA Engineer",
+    Age: 30,
+    Expertise: ["Software Testing", "Automation", "Bug Tracking"],
+    DOB: "1991-12-14",
+    EmailID: "preeti@example.com",
+    Contact: "+91 9876543215",
+    Address: [
+      { PAddr: "777, JKL Street", LAddr: "LMN Nagar" },
+      { PAddr: "888, XYZ Street", LAddr: "DEF Nagar" }
+    ]
+  },
+  {
+    Empid: 7,
+    Name: { FName: "Vikram", LName: "Rathod" },
+    CompanyName: "TechCorp",
+    Salary: 61000,
+    Designation: "Database Administrator",
+    Age: 31,
+    Expertise: ["Database Management", "SQL", "Performance Tuning"],
+    DOB: "1990-05-03",
+    EmailID: "vikram@example.com",
+    Contact: "+91 9876543216",
+    Address: [
+      { PAddr: "123, PQR Street", LAddr: "ABC Nagar" },
+      { PAddr: "999, GHI Street", LAddr: "JKL Nagar" }
+    ]
+  },
+  {
+    Empid: 8,
+    Name: { FName: "Anjali", LName: "Shah" },
+    CompanyName: "DataTech",
+    Salary: 74000,
+    Designation: "Data Analyst",
+    Age: 28,
+    Expertise: ["Data Analysis", "Statistics", "Python"],
+    DOB: "1993-03-21",
+    EmailID: "anjali@example.com",
+    Contact: "+91 9876543217",
+    Address: [
+      { PAddr: "444, ABC Street", LAddr: "XYZ Nagar" },
+      { PAddr: "777, DEF Street", LAddr: "MNO Nagar" }
+    ]
+  },
+  {
+    Empid: 9,
+    Name: { FName: "Alok", LName: "Patel" },
+    CompanyName: "TechSolutions",
+    Salary: 57000,
+    Designation: "Software Engineer",
+    Age: 33,
+    Expertise: ["Java", "Web Development", "Python"],
+    DOB: "1988-08-17",
+    EmailID: "alok@example.com",
+    Contact: "+91 9876543218",
+    Address: [
+      { PAddr: "666, XYZ Street", LAddr: "PQR Nagar" },
+      { PAddr: "555, GHI Street", LAddr: "JKL Nagar" }
+    ]
+  },
+  {
+    Empid: 10,
+    Name: { FName: "Neha", LName: "Rajput" },
+    CompanyName: "TechCorp",
+    Salary: 63000,
+    Designation: "Software Engineer",
+    Age: 27,
+    Expertise: ["Java", "C++", "Database Design"],
+    DOB: "1994-06-09",
+    EmailID: "neha@example.com",
+    Contact: "+91 9876543219",
+    Address: [
+      { PAddr: "123, LMN Street", LAddr: "DEF Nagar" },
+      { PAddr: "444, XYZ Street", LAddr: "ABC Nagar" }
+    ]
+  }
+]);
